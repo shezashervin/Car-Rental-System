@@ -3,7 +3,7 @@ from prettytable import PrettyTable
 def get_connection():
     return mysql.connector.connect(
         user='root',
-        password='Sheza9633960909',
+        password='password',
         port='3306',
         host='localhost',
         database='car_rental_system')
